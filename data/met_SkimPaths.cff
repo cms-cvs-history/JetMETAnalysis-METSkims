@@ -2,5 +2,5 @@ include "JetMETAnalysis/METSkims/data/met_Sequences.cff"
 
 path metHLTPath = {metHLTFilter}
 path metPre1HLTPath = {metPre1HLTFilter}
-//path metPre2HLTPath = {metPre2HLTFilter}
-//path metPre3HLTPath = {metPre3HLTFilter}
+path metPre2HLTPath = {metPre2HLTFilter}
+path metPre3HLTPath = {metPre3HLTFilter}
