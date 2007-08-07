@@ -1,0 +1,12 @@
+include "JetMETAnalysis/METSkims/data/sumET_EventContent.cff"
+include "JetMETAnalysis/METSkims/data/FEVTSIMSumET_EventContent.cff"
+
+module sumETOutputModuleFEVTSIM = PoolOutputModule {
+  untracked string fileName = "sumET_FEVTSIM.root"
+  using FEVTSIMSumETEventContent	
+  using sumETEventSelection
+  untracked PSet datasets ={
+    untracked string dataTier = "USER"
+    untracked string filterName = "sumET_FEVTSIM"
+  }
+}
