@@ -1,0 +1,2 @@
+include "JetMETAnalysis/METSkims/data/met_SkimPaths.cff"
+include "JetMETAnalysis/METSkims/data/sumET_SkimPaths.cff"
