@@ -1,0 +1,10 @@
+include "Configuration/EventContent/data/EventContent.cff"
+include "JetMETAnalysis/METSkims/data/sumET_EventContent.cff"
+
+block FEVTSIMSumETEventContent = {
+  untracked vstring outputCommands = { 
+  }
+}
+
+replace FEVTSIMSumETEventContent.outputCommands += FEVTSIMEventContent.outputCommands
+replace FEVTSIMSumETEventContent.outputCommands += sumETEventContent.outputCommands
