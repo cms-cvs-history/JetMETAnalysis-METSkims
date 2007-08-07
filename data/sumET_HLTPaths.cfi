@@ -1,0 +1,6 @@
+module sumETHLTFilter = HLTHighLevel {
+      InputTag TriggerResultsTag = TriggerResults
+      bool byName = true
+      bool andOr= true
+      vstring HLTPaths ={"CandHLT1SumET"}
+}
