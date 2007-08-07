@@ -1,0 +1,4 @@
+include "JetMETAnalysis/METSkims/data/met_Sequences.cff"
+include "JetMETAnalysis/METSkims/data/sumET_Sequences.cff"
+
+sequence metSkims = { metSkimHLTFilter & sumETSkimHLTFilter } 
