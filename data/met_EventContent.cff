@@ -1,0 +1,16 @@
+block  metEventContent = {
+  untracked vstring outputCommands = {
+    "keep *"
+  }
+}
+
+block metEventSelection  = {
+  untracked PSet SelectEvents = {
+    vstring SelectEvents = {
+      "metHLTPath",
+      "metPre1HLTPath"
+      //"metPre2HLTPath",
+      //"metPre3HLTPath",
+    }
+  }
+}
