@@ -8,9 +8,9 @@ block metEventSelection  = {
   untracked PSet SelectEvents = {
     vstring SelectEvents = {
       "metHLTPath",
-      "metPre1HLTPath"
-      //"metPre2HLTPath",
-      //"metPre3HLTPath",
+      "metPre1HLTPath",
+      "metPre2HLTPath",
+      "metPre3HLTPath",
     }
   }
 }
