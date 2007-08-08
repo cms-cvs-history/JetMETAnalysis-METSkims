@@ -1,6 +1,5 @@
 block  metEventContent = {
   untracked vstring outputCommands = {
-    "keep *"
   }
 }
 
