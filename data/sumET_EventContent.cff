@@ -1,6 +1,5 @@
 block  sumETEventContent = {
   untracked vstring outputCommands = {
-    "keep *"
   }
 }
 
