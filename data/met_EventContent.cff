@@ -10,7 +10,7 @@ block metEventSelection  = {
       "metHLTPath",
       "metPre1HLTPath",
       "metPre2HLTPath",
-      "metPre3HLTPath",
+      "metPre3HLTPath"
     }
   }
 }
