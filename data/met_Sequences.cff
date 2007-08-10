@@ -1,6 +1,0 @@
-include "JetMETAnalysis/METSkims/data/met_HLTPaths.cfi"
-
-sequence metSkimHLTFilter = {
-  metHLTFilter &
-  metPre1HLTFilter
-}
