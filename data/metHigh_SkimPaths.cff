@@ -1,0 +1,3 @@
+include "JetMETAnalysis/METSkims/data/metHigh_Sequences.cff"
+
+path metHighHLTPath = { metHLTFilter }
