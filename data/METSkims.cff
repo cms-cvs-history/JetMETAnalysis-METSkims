@@ -1,4 +1,6 @@
-include "JetMETAnalysis/METSkims/data/met_Sequences.cff"
-include "JetMETAnalysis/METSkims/data/sumET_Sequences.cff"
+include "JetMETAnalysis/METSkims/data/metHigh_Sequences.cff"
+include "JetMETAnalysis/METSkims/data/metLow_Sequences.cff"
+//include "JetMETAnalysis/METSkims/data/sumET_Sequences.cff"
 
-sequence metSkims = { metSkimHLTFilter & sumETSkimHLTFilter } 
+//sequence metSkims = { metHighSkimHLTFilter & metLowSkimHLTFilter & sumETSkimHLTFilter } 
+sequence metSkims = { metHighSkimHLTFilter & metLowSkimHLTFilter } 
