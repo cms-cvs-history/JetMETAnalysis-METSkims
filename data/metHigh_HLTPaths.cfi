@@ -1,0 +1,2 @@
+module  metHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace metHLTFilter.HLTPaths = {"HLT1MET"}
