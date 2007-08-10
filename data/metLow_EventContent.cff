@@ -1,0 +1,14 @@
+block  metLowEventContent = {
+  untracked vstring outputCommands = {
+  }
+}
+
+block metLowEventSelection  = {
+  untracked PSet SelectEvents = {
+    vstring SelectEvents = {
+      "metLowPre1HLTPath"
+      //"metLowPre2HLTPath",
+      //"metLowPre3HLTPath"
+    }
+  }
+}
