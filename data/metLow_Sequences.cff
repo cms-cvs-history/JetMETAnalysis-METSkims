@@ -1,7 +1,7 @@
 include "JetMETAnalysis/METSkims/data/metLow_HLTPaths.cfi"
 
 sequence metLowSkimHLTFilter = {
-  metPre1HLTFilter
-  //metPre2HLTFilter &
-  //metPre3HLTFilter
+  metPre1HLTFilter &
+  metPre2HLTFilter &
+  metPre3HLTFilter
 }

@@ -1,3 +1,3 @@
 include "JetMETAnalysis/METSkims/data/metHigh_OutputModule.cfi"
 include "JetMETAnalysis/METSkims/data/metLow_OutputModule.cfi"
-//include "JetMETAnalysis/METSkims/data/sumET_OutputModule.cfi"
+include "JetMETAnalysis/METSkims/data/sumET_OutputModule.cfi"
