@@ -1,8 +1,8 @@
 module  metPre1HLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
 replace metPre1HLTFilter.HLTPaths = {"CandHLT1METPre1"}
 
-//module  metPre2HLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-//replace metPre2HLTFilter.HLTPaths = {"CandHLT1METPre2"}
+module  metPre2HLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace metPre2HLTFilter.HLTPaths = {"CandHLT1METPre2"}
 
-//module  metPre3HLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-//replace metPre3HLTFilter.HLTPaths = {"CandHLT1METPre3"}
+module  metPre3HLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
+replace metPre3HLTFilter.HLTPaths = {"CandHLT1METPre3"}
