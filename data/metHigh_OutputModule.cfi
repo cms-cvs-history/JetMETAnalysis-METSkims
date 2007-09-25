@@ -5,7 +5,7 @@ module metHighOutputModuleFEVTSIM = PoolOutputModule {
   untracked string fileName = "metHigh_FEVTSIM.root"
   using FEVTSIMMetHighEventContent	
   using metHighEventSelection
-  untracked PSet datasets ={
+  untracked PSet dataset ={
     untracked string dataTier = "USER"
     untracked string filterName = "metHigh_FEVTSIM"
   }

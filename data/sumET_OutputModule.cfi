@@ -5,7 +5,7 @@ module sumETOutputModuleAODSIM = PoolOutputModule {
   untracked string fileName = "sumET_AODSIM.root"
   using AODSIMSumETEventContent	
   using sumETEventSelection
-  untracked PSet datasets ={
+  untracked PSet dataset ={
     untracked string dataTier = "USER"
     untracked string filterName = "sumET_AODSIM"
   }
