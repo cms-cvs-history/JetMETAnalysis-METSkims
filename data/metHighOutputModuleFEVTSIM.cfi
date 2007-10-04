@@ -1,0 +1,12 @@
+include "JetMETAnalysis/METSkims/data/metHigh_EventContent.cff"
+include "JetMETAnalysis/METSkims/data/FEVTSIMMetHigh_EventContent.cff"
+
+module metHighOutputModuleFEVTSIM = PoolOutputModule {
+  untracked string fileName = "metHigh_FEVTSIM.root"
+  using FEVTSIMMetHighEventContent	
+  using metHighEventSelection
+  untracked PSet dataset ={
+    untracked string dataTier = "USER"
+    untracked string filterName = "metHigh_FEVTSIM"
+  }
+}

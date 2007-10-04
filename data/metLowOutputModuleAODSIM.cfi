@@ -1,0 +1,12 @@
+include "JetMETAnalysis/METSkims/data/metLow_EventContent.cff"
+include "JetMETAnalysis/METSkims/data/AODSIMMetLow_EventContent.cff"
+
+module metLowOutputModuleAODSIM = PoolOutputModule {
+  untracked string fileName = "metLow_AODSIM.root"
+  using AODSIMMetLowEventContent	
+  using metLowEventSelection
+  untracked PSet dataset ={
+    untracked string dataTier = "USER"
+    untracked string filterName = "metLow_AODSIM"
+  }
+}
