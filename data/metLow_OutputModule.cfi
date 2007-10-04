@@ -1,1 +1,1 @@
-include "JetMETAnalysis/METSkims/datametLowOutputModuleAODSIM.cfi"
+include "JetMETAnalysis/METSkims/data/metLowOutputModuleAODSIM.cfi"
