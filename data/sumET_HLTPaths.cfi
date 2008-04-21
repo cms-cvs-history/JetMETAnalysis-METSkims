@@ -1,2 +1,0 @@
-module  sumETHLTFilter = hltHighLevel from "HLTrigger/HLTfilters/data/hltHighLevel.cfi"
-replace sumETHLTFilter.HLTPaths = {"CandHLT1SumET"}
