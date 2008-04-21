@@ -1,5 +1,0 @@
-include "JetMETAnalysis/METSkims/data/metHigh_HLTPaths.cfi"
-
-sequence metHighSkimHLTFilter = {
-  metHLTFilter
-}
