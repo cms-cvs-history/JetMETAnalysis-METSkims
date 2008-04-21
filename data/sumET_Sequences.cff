@@ -1,3 +1,0 @@
-include "JetMETAnalysis/METSkims/data/sumET_HLTPaths.cfi"
-
-sequence sumETSkimHLTFilter = { sumETHLTFilter }
